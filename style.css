@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+  }
+
+header {
+	background-color: #585151e8;
+    width: 100vw;
+    height: 140px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+    margin-top: 0px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.menu span{ 
+    font-size: 1.4em;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/menu-icon.png);
+    filter: invert(1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    margin-left: 40px;
+  }
+  
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(img/CE144-inFORMA-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 400px;
+	height: 400px;
+    margin-top: 160px;
+}
+
+.search-container {
+    position:absolute;
+    top: 20px;
+    right: 0px;
+    transform: translateX(-10%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    width: 40%;
+    max-width: 300px;
+    padding: 10px;
+}
+  
+.search-container input[type=text] {
+    padding: 8px;
+    border-radius: 20px 0 0 20px; /* define o lado esquerdo com borda arredondada */
+    border: none;
+    margin-right: -1px;
+    width: 180px; /* Define a largura do input para 200px */
+    max-width: 60%; /* Define a largura máxima do input para 100% do seu container */
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0 20px 20px 0; /* define o lado direito com borda arredondada */
+    border: none;
+    cursor: pointer;
+    margin-right: 0px;
+    padding: 8px 20px;
+    width: 100px; /* Define a largura do botão para 100px */ 
+}
+  
+.search-container button:hover {
+    background-color: #3e8e41;
+}
+
+.search-container input[type=text]:focus {
+    outline: none;
+}
+
+h1.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    max-width: 800px;
+	text-align: justify;
+	margin: 0 auto;
+    line-height: 1;
+}
+
+h2.subtitle {
+    font-size: 24px;
+    font-weight: normal;
+    color: #666666;
+    max-width: 800px;
+	text-align: justify;
+	margin: 0 auto;
+    line-height: 1;
+}
+
+p.author {
+    font-size: 16px;
+    font-weight: normal;
+    color: #999999;
+    max-width: 800px;
+	text-align: justify;
+	margin: 0 auto;
+    line-height: 1.5;    
+}
+
+p.date {
+    font-size: 16px;
+    font-weight: normal;
+    color: #999999;
+    max-width: 800px;
+	text-align: justify;
+	margin: 0 auto;
+    line-height: 1;
+}
+
+p.paragrafo {
+	max-width: 800px;
+	text-align: justify;
+	margin: 0 auto;
+	text-indent: 30px;
+    line-height: 1.5;
+}
+
+  
+  
+  
